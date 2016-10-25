@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>OurPets</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+	<!-- 	<script src="main.js"></script> -->
+		<script type="text/javascript" src="admin.json"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+
+	</head>
+	<body class="homepage">
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Our Pets</a></h1>
+						<span></span>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Homepage</a></li>
+							<li><a href="./About.html">About</a></li>
+							<li><a href="./About.html">Services</a></li>
+							<li><a href="./News.html">News</a></li>
+							<li ><a href="./contacts.php">Contact</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+		
+		<!-- Main -->
+		<div id="main">
+			<div class="container">
+				<header>
+					<div class="log-form">
+						<h4>Login to your account</h4>
+					   <!--  <form onsubmit="return validate();" action="login.php"> -->
+					      <form action="login.php" method="POST">
+						    <input type="text" name = "username" id="username" value = "" placeholder="username:admin" />
+							<input type="password" name = "password" id="password" value="" placeholder="password:20" />
+							<input type="submit" id="submit" name = "submit" value="Login" />
+							<!-- <button type="submit" class="btn" onclick="return validate();">Login </button> -->
+							<!-- <a class="forgot" href="#">Forgot Username?</a> -->
+					    </form>
+		           </div>
+				</header>
+				<div class="divider">&nbsp;
+				</div>
+ 			</div>
+ 		</div>				
+		<!-- Content -->
+</body>
+
+</html>
