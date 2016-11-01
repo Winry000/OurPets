@@ -48,7 +48,7 @@
 	/* Don't forget to set this to something that matches the design */
 	a
 	{
-		color: white;
+		color: red;
 	}
 	
 	a:hover
@@ -253,6 +253,9 @@
 				margin-top: 1em;
 				padding: 0.50em 0em;
 			}
+/*********************************************************************************/
+/* siderbar                                                                       */
+/*********************************************************************************/
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -383,6 +386,79 @@
 		clear:both;
 	}
 /*********************************************************************************/
-/* userpage                                                                       */
+/* service                                                                     */
 /*********************************************************************************/
+
+.images
+{
+	float:left;
+	width: 300px;
+	height: 300px;
+	
+}
+.images img {
+	width: 300px;
+	height: 300px;
+	border: seagreen;
+	border-style:double;
+}
+.items ul li {
+    float: left;
+}
+
+.btn {
+	size:20px;
+	 display: inline-block;
+  	margin: 25px 10px 0 0;
+  	font-size: 18px;
+  	font-family: "Bitter",serif;
+  	line-height: 1.8;
+  	appearance: none;
+  	box-shadow: none;
+  	border-radius: 0;
+}
+
+.btn1 {
+	clear:both;
+	size:20px;
+	 display: inline-block;
+  	margin: 25px 10px 0 0;
+  	font-size: 18px;
+  	font-family: "Bitter",serif;
+  	line-height: 1.8;
+  	appearance: none;
+  	box-shadow: none;
+  	border-radius: 0;
+}
+.default li a {
+	font-size:20px;
+	color:purple; 
+	text-decoration: none;
+}
+
+.default li a:hover {
+	font-size:20px;
+	color:black; 
+	text-decoration: none;
+}
+.Images
+{
+	clear:both;
+	width: 300px;
+	height: 300px;
+	
+}
+.Images img{
+	clear:both;
+	width: 300px;
+	height: 300px;
+	border: seagreen;
+	border-style:double;
+}
+
+
+
+
+
+
 	
