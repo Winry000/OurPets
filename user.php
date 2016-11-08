@@ -37,7 +37,7 @@
 						<ul>
 							<li><a href="index.html">Homepage</a></li>
 							<li><a href="./About.html">About</a></li>
-							<li><a href="./About.html">Services</a></li>
+							<li><a href="./Services.html">Services</a></li>
 							<li><a href="./News.html">News</a></li>
 							<li ><a href="./contacts.php">Contact</a></li>
 						</ul>

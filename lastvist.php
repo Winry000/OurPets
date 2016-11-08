@@ -53,7 +53,7 @@
 					$history = $_COOKIE["history"];
 					$arrPath = explode("/", $history);
 					foreach ($arrPath as $key => $value) {
-					if ($key>5) break;
+					if ($key > 4) break;
 					switch($value) {
 						 	case "00001" : { ?> <div class="Images"> <a href="./00001.php"><img src="images/images1.jpg" alt="" /></a> </div> <?php } break;
 						 	case "00002" :{ ?> <div class="Images"> <a href="./00002.php"><img src="images/images2.jpg" alt="" /></a> </div> <?php }; break;
